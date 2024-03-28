@@ -1,0 +1,12 @@
+[package]
+name = "my_binary"
+version = "0.1.0"
+edition = "2021"
+authors = ["Christopher Elias"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.2"     # Uses version "1.0.2"
+serde_derive = "1.0" # Uses version "1.0.X"
+heck = "*"          # Uses version "X.X.X"
